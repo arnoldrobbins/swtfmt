@@ -1,0 +1,85 @@
+Sat Oct 18 20:46:15 IDT 2014
+============================
+
+These are the files for the Georgia Tech Software Tools Subsystem 'fmt'
+formatter translated into C by Arnold Robbins.  The Ratfor version
+was a much-improved version of the original formatter in the Software
+Tools book.
+
+I have not touched these files in close to 20 years, as evidenced by
+the dates. I'm posting them to GitHub so that they'll be available for
+anyone who is interested.
+
+Arnold Robbins
+arnold@skeeve.com
+
+Here is a full recursive ls listing, with dates.
+
+.:
+total 176
+drwxr-xr-x 2 arnold arnold  4096 May 21  1986 macros.u
+drwxr-xr-x 2 arnold arnold  4096 May 21  1986 guide.u
+-rw-r--r-- 1 arnold arnold  4836 May 29  1985 io.c
+-rw-r--r-- 1 arnold arnold  7447 May 29  1985 new.c
+-rw-r--r-- 1 arnold arnold  2170 May 29  1985 makefile
+-rw-r--r-- 1 arnold arnold  9362 May 29  1985 cmd.c
+-rw-r--r-- 1 arnold arnold 12687 May 29  1985 main.c
+-rw-r--r-- 1 arnold arnold  4293 May 29  1985 extern.h
+-rw-r--r-- 1 arnold arnold  5576 May  8  1985 lz.c
+-rw-r--r-- 1 arnold arnold  1592 May  1  1985 fos.1
+-rw-r--r-- 1 arnold arnold   922 May  1  1985 fos.sh
+-rw-r--r-- 1 arnold arnold 18853 Mar 26  1985 mac.c
+-rw-r--r-- 1 arnold arnold  4744 Mar 26  1985 misc.c
+-rw-r--r-- 1 arnold arnold 14367 Mar 26  1985 fill.c
+-rw-r--r-- 1 arnold arnold  4263 Mar 26  1985 fmt.h
+-rw-r--r-- 1 arnold arnold  2904 Mar 26  1985 chardefs.h
+-rw-r--r-- 1 arnold arnold  6133 Mar 11  1985 dprint.d
+-rw------- 1 arnold arnold  8259 Mar  6  1985 sprint.c
+-rw-r--r-- 1 arnold arnold  1993 Jan 21  1985 lz.1
+-rw-r--r-- 1 arnold arnold  4818 Dec 17  1984 os.c
+-rw-r--r-- 1 arnold arnold  3722 Dec 17  1984 swtfmt.1
+-rw-r--r-- 1 arnold arnold  1111 Dec 17  1984 os.1
+
+./macros.u:
+total 84
+-rw-r--r-- 1 arnold arnold   355 Nov  8  1984 Makefile
+-rw-r--r-- 1 arnold arnold   285 Nov  6  1984 evl2
+-rw-r--r-- 1 arnold arnold  1728 Nov  6  1984 ugnh
+-rw-r--r-- 1 arnold arnold  2095 Nov  6  1984 ugm
+-rw-r--r-- 1 arnold arnold  1427 Nov  6  1984 ugh
+-rw-r--r-- 1 arnold arnold   748 Nov  6  1984 numpar
+-rw-r--r-- 1 arnold arnold  2602 Nov  6  1984 report
+-rw-r--r-- 1 arnold arnold   100 Nov  6  1984 info
+-rw-r--r-- 1 arnold arnold   257 Nov  6  1984 let
+-rw-r--r-- 1 arnold arnold   734 Nov  6  1984 ics4120
+-rw-r--r-- 1 arnold arnold 12298 Nov  6  1984 gt_thesis
+-rw-r--r-- 1 arnold arnold   280 Nov  6  1984 evp
+-rw-r--r-- 1 arnold arnold   345 Nov  6  1984 evt
+-rw-r--r-- 1 arnold arnold   208 Nov  6  1984 envp
+-rw-r--r-- 1 arnold arnold   277 Nov  6  1984 evd
+-rw-r--r-- 1 arnold arnold   232 Nov  6  1984 envd
+-rw-r--r-- 1 arnold arnold  1196 Nov  6  1984 ds_report
+-rw-r--r-- 1 arnold arnold   413 Oct 16  1984 evl
+
+./guide.u:
+total 272
+-rw-r--r-- 1 arnold arnold 139351 May 30  1985 OUT
+-rw-r--r-- 1 arnold arnold   8284 May 29  1985 packages
+-rw-r--r-- 1 arnold arnold  15091 May 29  1985 input
+-rw-r--r-- 1 arnold arnold   7222 May 29  1985 margins
+-rw-r--r-- 1 arnold arnold   6274 May 29  1985 spacing
+-rw-r--r-- 1 arnold arnold   4842 May 29  1985 filling
+-rw-r--r-- 1 arnold arnold   4099 Dec 17  1984 alpha_commands
+-rw-r--r-- 1 arnold arnold   5791 Dec 14  1984 misc
+-rw-r--r-- 1 arnold arnold   1160 Dec 14  1984 guide2
+-rw-r--r-- 1 arnold arnold   8786 Dec 14  1984 applications
+-rw-r--r-- 1 arnold arnold    160 Dec 14  1984 title_page
+-rw-r--r-- 1 arnold arnold   3314 Dec 14  1984 tabs
+-rw-r--r-- 1 arnold arnold   4394 Dec 14  1984 macros
+-rw-r--r-- 1 arnold arnold   4305 Dec 14  1984 headings
+-rw-r--r-- 1 arnold arnold   1400 Dec 14  1984 guide
+-rw-r--r-- 1 arnold arnold   3327 Dec 14  1984 func_commands
+-rw-r--r-- 1 arnold arnold    791 Dec 14  1984 foreword
+-rw-r--r-- 1 arnold arnold   3430 Dec 14  1984 conditionals
+-rw-r--r-- 1 arnold arnold   3311 Dec 14  1984 basics
+-rw-r--r-- 1 arnold arnold    576 Dec 14  1984 Makefile
